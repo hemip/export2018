@@ -77,6 +77,8 @@ public class JSONify {
 		write("vasslen",py.getVasslen());
 		write("vattendjup",py.getVattendjup());
 		write("vasstathet",py.getVasstathet());
+		write("matstart",py.getMätstart().toString());
+
 
 		writeArrays(py);
 

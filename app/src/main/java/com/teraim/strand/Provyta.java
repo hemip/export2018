@@ -303,7 +303,7 @@ public class Provyta implements Serializable {
 	}
 
 	public void setStartPNorth(double n) {
-		startPEast = n;
+		startPNorth = n;
 		saved = false;
 	}
 
@@ -873,6 +873,11 @@ public class Provyta implements Serializable {
 	public String getVegtackningfaltsupra() {
 		return vegtackningfaltsupra;
 	}
+
+	public Date getMätstart() {
+		return mätstart;
+	}
+
 
 
 }
