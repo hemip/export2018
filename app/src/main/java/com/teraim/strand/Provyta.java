@@ -103,7 +103,7 @@ public class Provyta implements Serializable {
 	}
 
 	/**
-	 * @param ovanHabitat the ovanHabitat to set
+	 * @param ovanhabitat the ovanHabitat to set
 	 */
 	public void setOvanHabitat(String ovanhabitat) {
 		saved = false;
@@ -825,16 +825,26 @@ public class Provyta implements Serializable {
 		dyner = new Table(5,this);
 		deponi = new Table(2,this);
 		//init deponi with static rows.
-		deponi.saveRow(deponi.getNextId(), "Tång","0");
-		deponi.saveRow(deponi.getNextId(), "Gren/kvist/ved","0");
-		deponi.saveRow(deponi.getNextId(), "Annan vegetation","0");
-		deponi.saveRow(deponi.getNextId(), "Plast","0");
-		deponi.saveRow(deponi.getNextId(), "Oljespill","0");
-		deponi.saveRow(deponi.getNextId(), "Byggavfall","0");
-		deponi.saveRow(deponi.getNextId(), "Grävmassor","0");		
-		deponi.saveRow(deponi.getNextId(), "Sten","0");
-		deponi.saveRow(deponi.getNextId(), "Metallskrot","0");
-		deponi.saveRow(deponi.getNextId(), "Övrigt","0");	
+		deponi.saveRow(deponi.getNextId(), "Tång (m2)","0");
+		deponi.saveRow(deponi.getNextId(), "Gren/kvist/ved (m2)","0");
+		deponi.saveRow(deponi.getNextId(), "Annan vegetation (m2)","0");
+		deponi.saveRow(deponi.getNextId(), "Sågat virke (m)","0");
+		deponi.saveRow(deponi.getNextId(), "Bryggdelar (m2)","0");
+		deponi.saveRow(deponi.getNextId(), "Fiskenät (m)","0");
+		deponi.saveRow(deponi.getNextId(), "Fisklina (m)","0");
+		deponi.saveRow(deponi.getNextId(), "Plastföten/bojar (n)","0");
+		deponi.saveRow(deponi.getNextId(), "Annat fiskerelaterat (n)","0");
+		deponi.saveRow(deponi.getNextId(), "Plastlådor (n)","0");
+		deponi.saveRow(deponi.getNextId(), "Petflaskor (n)","0");
+		deponi.saveRow(deponi.getNextId(), "Plastdunkar (n)","0");
+		deponi.saveRow(deponi.getNextId(), "Plastpåsar (n)","0");
+		deponi.saveRow(deponi.getNextId(), "Annan plast (n)","0");
+		deponi.saveRow(deponi.getNextId(), "Oljespill (m2)","0");
+		deponi.saveRow(deponi.getNextId(), "Byggavfall (m2)","0");
+		deponi.saveRow(deponi.getNextId(), "Grävmassor (m2)","0");
+		deponi.saveRow(deponi.getNextId(), "Sten (m2)","0");
+		deponi.saveRow(deponi.getNextId(), "Metallskrot (m2)","0");
+		deponi.saveRow(deponi.getNextId(), "Övrigt (m2)","0");
 		blålapp="";
 		saved = false;
 		isNormal = true;
