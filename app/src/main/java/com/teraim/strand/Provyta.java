@@ -838,7 +838,7 @@ public class Provyta implements Serializable {
 		deponi.saveRow(deponi.getNextId(), "Petflaskor (n)","0");
 		deponi.saveRow(deponi.getNextId(), "Plastdunkar (n)","0");
 		deponi.saveRow(deponi.getNextId(), "Plastpåsar (n)","0");
-		deponi.saveRow(deponi.getNextId(), "Annan plast (n)","0");
+		deponi.saveRow(deponi.getNextId(), "Annan plast (m2)","0");
 		deponi.saveRow(deponi.getNextId(), "Oljespill (m2)","0");
 		deponi.saveRow(deponi.getNextId(), "Byggavfall (m2)","0");
 		deponi.saveRow(deponi.getNextId(), "Grävmassor (m2)","0");
